@@ -1,0 +1,64 @@
+#include<stdio.h>
+int main()
+{
+	int input1,input2,test[31],yn,time,i,j;
+	for(i=0;i<10;i++)
+	{
+		yn=0;
+		time=0;
+		scanf("%d%d",&input1,&input2);
+		for(j=0;j<30;j++)
+		{
+			scanf("%d",&test[j]);
+		}
+		
+		if(input1>=input2)
+		{
+			for(j=0;j<30;j++)
+			{
+				if(input1!=test[j]&&test[j]!=0)
+				{
+					time++;
+				}
+				if(time==3)
+				{
+					yn=0;
+					break;
+				}
+				if(input1==test[j])
+				{
+					yn=1;
+				}
+			}
+		}
+		if(input1<input2)
+		{
+			for(j=0;j<30;j++)
+			{
+				if(input2==test[j])
+				{
+					yn=1;
+					break;
+				}
+				if(input2!=test[j]&&test[j]!=0)
+				{
+					time++;
+				}
+				if(time==3)
+				{
+					yn=0;
+					break;
+				}
+				
+			}
+		}
+		if(yn==0)
+		{
+			printf("N\n");
+		}
+		if(yn==1)
+		{
+			printf("Y\n");
+		}
+	}
+} 

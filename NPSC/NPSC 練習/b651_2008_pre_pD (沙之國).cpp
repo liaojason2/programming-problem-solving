@@ -1,0 +1,44 @@
+#include<stdio.h>
+int main()
+{
+	int n,z,i,a,output;
+	scanf("%d",&n);
+	for(z=0;z<n;z++)
+	{
+		scanf("%d",&a);
+		output=0;
+		for(;;)
+		{
+			if(a>=27)
+			{
+				output=output+a/27;
+				a=a%27;
+				continue;
+			}
+			if(a>=9)
+			{
+				output=output+a/9;
+				a=a%9;
+				continue;
+			}
+			if(a>=3)
+			{
+				output=output+a/3;
+				a=a%3;
+				continue;
+			}
+			if(a>=1)
+			{
+				output=output+1;
+				a=a-1;
+				continue;
+			}
+			if(a==0)
+			{
+				printf("%d\n",output);
+				break;
+			}
+			
+		}
+	}
+} 

@@ -1,0 +1,45 @@
+您的ID為nksh
+密碼為7ihssc
+
+VPN/SSL
+參賽隊伍如有干擾比賽正常進行之情事，
+主辦單位得立即停權，以維持比賽順利進行。
+
+登入SSL VPN及Kattis平台使用手冊網址：
+http://contest.cc.ntu.edu.tw/npsc2015/tool.asp
+
+SSL VPN 連線測試使用相關帳號密碼
+SSL VPN測試連線 
+11月10日(二)14:00~ 11/12(四)17:00
+網址：https://vpn.npsc.ntu.edu.tw/
+帳號：team335
+密碼：npsc123456
+
+
+聯絡電話：02-33665017；02-33665023
+僅供模擬賽及初賽當天使用。
+
+11/10
+帳號：team335
+密碼：12345qwert
+
+參賽隊伍如有干擾比賽正常進行之情事，
+主辦單位得立即停權，以維持比賽順利進行。
+
+登入SSL VPN及Kattis平台使用手冊網址：
+http://contest.cc.ntu.edu.tw/npsc2015/tool.asp
+
+初賽使用相關帳密
+
+SSL VPN連線‧網址：https://vpn.npsc.ntu.edu.tw/
+‧帳號：team335
+‧密碼：X9eX4Exerf
+Kattis平台連線 ‧帳號：team335
+‧密碼：WrXUNkx2fN
+Kattis主機位址(含計分板)：http://npsc1.ntu.edu.tw
+比賽時間：11/28(六) 10:00 - 13:00
+題目下載：http://contest.cc.ntu.edu.tw/npsc2015/schedule.asp
+
+
+聯絡電話：02-33665017；02-33665023
+僅供模擬賽及初賽當天使用。 

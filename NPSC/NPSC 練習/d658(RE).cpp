@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+	int tests,i,a[1000],cal,output;
+	for(;;)
+	{
+		cal=0;
+		output=0;
+		scanf("%d",&tests);
+		if(tests==0)
+		{
+			break;
+		}
+		for(i=0;i<tests;i++)
+		{
+			scanf("%d",&a[i]);
+			cal=cal+a[i];
+		}
+		printf("%d\n",cal);
+		cal=cal/tests;
+		if(cal%2!=0)
+		{
+			cal=cal+1;
+		}
+		printf("%d\n",cal);
+		for(i=0;i<tests;i++)
+		{
+			if(a[i]<cal)
+			{
+				output++;
+			}
+		}
+		printf("%d\n",output);
+	}
+} 
